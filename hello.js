@@ -6,7 +6,7 @@ app.use(ctx=>{
     ctx.body = 'hello world'
 })
 console.log('启动成功 1')
-app.listen(3001,()=>{
-	console.log('启动成功 2')
+app.listen(3001,(error)=>{
+	console.log(error.message || '成功 2')
 })
 
