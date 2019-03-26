@@ -1,4 +1,13 @@
 {
+  "name": "jenkins_hello_world_1",
+  "version": "1.0.0",
+  "description": "666",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"666\" && exit 1"
+  },
+  "author": "chenjian",
+  "license": "ISC",
   "dependencies": {
     "koa": "^2.7.0"
   }
