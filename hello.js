@@ -8,7 +8,8 @@ app.use(ctx=>{
 })
 console.log('启动成功 1')
 app.listen(3001,(error)=>{
-	console.log(error || '成功 2')
+	console.log(error || '成功 1')
 	console.log('IP => ',os.networkInterfaces())
+	console.log(error || '成功 2')
 })
 
