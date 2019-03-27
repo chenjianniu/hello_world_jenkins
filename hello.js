@@ -7,6 +7,6 @@ app.use(ctx=>{
 })
 console.log('启动成功 1')
 app.listen(3001,(error)=>{
-	console.log(error.message || '成功 2')
+	console.log(error || '成功 2')
 })
 
