@@ -1,0 +1,10 @@
+FROM jenkins/jenkins:lts
+MAINTAINER chenjian <chenjianniu@foxmail.com>
+USER root
+RUN apt-get update
+RUN apt-get install git gcc c++ make
+RUN git clone http://github.com/bmc/daemonize.git
+RUN cd daemonize
+RUN ./configure
+RUN make
+RUN make install
